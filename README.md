@@ -6,18 +6,20 @@ Formulario para crear fondos de pantalla de los equipos de soporte de cada centr
 
 ## Uso
 
-1. Completa el nombre del centro y la empresa.
+1. Completa el nombre del centro y selecciona CERMAQ, Mowi o Camanchaca en la lista de empresas.
 2. Elige la resolución del PC de destino.
 3. Ajusta la calidad del JPG si lo necesitas. La vista previa muestra el peso real.
 4. Descarga el JPG y envía solamente esa imagen por AnyDesk al equipo correspondiente.
 5. Guarda el JPG en una carpeta fija del equipo y establécelo como fondo de escritorio.
 
-La calidad inicial es 85 %. El ejemplo CERMAQ / Estero Conche a 1920 × 1080 ocupa aproximadamente 257 KB. El peso depende del texto, resolución y calidad elegidos.
+La calidad inicial es 85 %. El ejemplo CERMAQ / Estero Conche a 1920 × 1080 ocupa aproximadamente 263 KB. El peso depende del texto, resolución y calidad elegidos.
 
 ## Funcionamiento
 
 - HTML, CSS y JavaScript sin dependencias ni proceso de compilación.
 - Toda la generación ocurre en el navegador mediante Canvas.
+- Cada empresa utiliza su logo oficial como imagen. No se sustituye por texto con una tipografía genérica.
+- Los logos se incluyen dentro del HTML, mantienen sus proporciones y no dependen de conexiones con las webs de las empresas.
 - Los nombres ingresados no se envían a un servidor ni se guardan.
 - El fondo está incluido dentro de `index.html`. Se puede descargar ese archivo y abrirlo con Edge o Chrome para utilizar el generador sin conexión.
 - Se conserva la proporción del fondo. En pantallas con otra proporción aparecen márgenes oscuros para evitar recortar o deformar la imagen.
@@ -48,7 +50,11 @@ git push
 - `index.html`: aplicación completa con la imagen original incluida.
 - `.nojekyll`: publicación estática en GitHub Pages.
 - `.gitignore`: exclusiones de archivos locales y temporales.
+- `assets/logos/`: archivos de los logos y documentación de sus fuentes oficiales.
 
 ## Recursos gráficos
 
 El fondo y el logo provienen de la plantilla entregada por Omnifish. Este repositorio no otorga una licencia adicional sobre las marcas ni el material gráfico.
+
+
+La procedencia y la preparación de los logos de las empresas se documentan en [assets/logos/SOURCES.md](assets/logos/SOURCES.md).
