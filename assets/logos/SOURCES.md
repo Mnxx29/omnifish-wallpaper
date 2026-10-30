@@ -13,7 +13,7 @@ Archivos obtenidos el 30 de octubre de 2026 desde los sitios oficiales. El gener
 - Página oficial de prensa: https://mowi.com/no/medier/
 - Paquete oficial: https://mowi.com/wp-content/uploads/2024/11/mowi-logo.zip
 - Archivo fuente del paquete: `mowi-logo-white.svg`.
-- Archivo utilizado: `mowi-white.svg`. Se conservaron los trazados y el color blanco originales. Se retiraron los rectángulos que presentan el logo sobre una lámina blanca y un recuadro oscuro, y se ajustó el área del SVG al logo. No se redibujaron las letras.
+- Archivo utilizado: `mowi-white.svg`. Se conservaron todos los elementos del logo y el color blanco originales, incluido el rectángulo que forma la letra I. Se retiraron los rectángulos que presentan el logo sobre una lámina blanca y un recuadro oscuro, y se ajustó el área del SVG al logo. No se redibujaron las letras.
 
 ## Camanchaca
 
